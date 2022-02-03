@@ -11,7 +11,7 @@ a {
 
 body {
     background-color: #ffffff;
-    background-image: url("bg.png");
+    background-image: url("./files/bg.png");
     color: #98a7c7;
     font-family: 'Roboto', sans-serif;
 }
@@ -24,20 +24,21 @@ p {
     width: 900px;
     height: 100%;
     min-height: 100vh;
-    margin: 0 auto;
+    margin: auto;
     background: #e7f3ff;
-    padding: 20px 40px;
+    padding: 58px 40px;
+    /* padding: 130px 40px; */
 }
 
 #header {
     background-color: #ffffff;
     border-bottom: 5px solid lavender;
     border-radius: 20px;
-    padding: 15px;
+    padding: 20px 15px 15px 15px;
+    margin-bottom: 15px;
 }
 
 #main {
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -46,11 +47,19 @@ p {
     flex: 50%;
 }
 
+#left {
+    padding-right: 20px;
+}
+
+#right {
+    padding-left: 20px;
+}
+
 .panel {
     background-color: #ffffff;
     border-radius: 20px;
     border-bottom: 5px solid lavender;
-    margin: 15px;
+    margin-bottom: 15px;
 }
 
 .panel-header {
@@ -71,11 +80,10 @@ i {
 }
 
 .avatar {
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 50%;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin: auto;
 }
 
 .color-blue {
@@ -83,11 +91,11 @@ i {
 }
 
 .color-gray {
-    color: #99a8c8;
+    color: #777878;
 }
 
 .color-black {
-    color: #000000;
+    color: #777878;
 }
 
 .bold {
