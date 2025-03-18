@@ -101,3 +101,6 @@ i {
 .bold {
     font-weight: bolder;
 }
+.text-justify {
+    text-align: justify;
+}
