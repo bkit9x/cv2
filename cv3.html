@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CV - Nguyễn Hoàng Kha</title>
+  <style>
+    :root{
+      --text:#111;
+      --muted:#555;
+      --line:#e6e6e6;
+      --chip:#f3f4f6;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      color:var(--text);
+      margin:0;
+      background:#fff;
+    }
+    .page{
+      max-width: 900px;
+      margin: 28px auto;
+      padding: 0 18px 40px;
+    }
+    header{
+      border-bottom: 2px solid var(--line);
+      padding-bottom: 14px;
+      margin-bottom: 18px;
+    }
+    h1{
+      margin: 0 0 6px;
+      font-size: 28px;
+      letter-spacing: .2px;
+    }
+    .role{
+      margin:0;
+      font-size: 15px;
+      color:var(--muted);
+      line-height: 1.4;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns: 1.1fr .9fr;
+      gap: 18px;
+      margin-top: 14px;
+    }
+    .card{
+      border:1px solid var(--line);
+      border-radius: 10px;
+      padding: 14px 14px 10px;
+    }
+    h2{
+      font-size: 16px;
+      margin: 0 0 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+      letter-spacing: .2px;
+    }
+    .item{ margin: 0 0 10px; }
+    .label{ color:var(--muted); }
+    .row{
+      display:flex; gap: 10px; flex-wrap: wrap;
+      margin: 6px 0 0;
+    }
+    .chip{
+      display:inline-block;
+      background:var(--chip);
+      border:1px solid var(--line);
+      border-radius: 999px;
+      padding: 6px 10px;
+      font-size: 13px;
+      margin: 4px 6px 0 0;
+    }
+    ul{ margin: 8px 0 0 18px; padding:0; }
+    li{ margin: 6px 0; line-height: 1.45; }
+    .muted{ color:var(--muted); }
+    .twoCol{
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .footerNote{
+      margin-top: 14px;
+      font-size: 13px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+    }
+    @media (max-width: 820px){
+      .grid{ grid-template-columns: 1fr; }
+      .twoCol{ grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <h1>NGUYỄN HOÀNG KHA</h1>
+      <p class="role">
+        Ứng tuyển: <strong>Nhân viên kỹ thuật CNTT / An toàn thông tin</strong><br/>
+      </p>
+    </header>
+
+    <section class="grid">
+      <!-- CỘT TRÁI -->
+      <div class="card">
+        <h2>Thông tin cá nhân</h2>
+        <div class="item"><span class="label">Họ và tên:</span> <strong>Nguyễn Hoàng Kha</strong></div>
+        <div class="item"><span class="label">Năm sinh:</span> <strong>1999</strong></div>
+        <div class="item"><span class="label">Quê quán:</span> <strong> Tân Nhuận Đông, Đồng Tháp</strong></div>
+        <div class="item"><span class="label">Số điện thoại:</span> <strong>0358993264</strong></div>
+
+      </div>
+
+      <!-- CỘT PHẢI -->
+      <div class="card">
+        <h2>Nguyện vọng</h2>
+        <p class="muted" style="margin:0; line-height:1.5;">
+          Mong muốn được công tác tại vị trí <strong>Nhân viên kỹ thuật CNTT</strong> hoặc <strong>Nhân viên An toàn thông tin</strong>,
+          ưu tiên môi trường có quy trình vận hành rõ ràng, tuân thủ kỷ luật, phối hợp hỗ trợ các đơn vị cơ sở,
+          tham gia triển khai – kiểm tra – khắc phục sự cố và nâng cao an toàn hệ thống.
+        </p>
+        <ul>
+          <li>Sẵn sàng nhận nhiệm vụ tại đơn vị/cơ sở theo phân công.</li>
+          <li>Ưu tiên công việc: vận hành – hỗ trợ kỹ thuật, kiểm tra ATTT, quản trị thiết bị/endpoint.</li>
+          <li>Mục tiêu: phát triển chuyên môn theo hướng <strong>kỹ thuật hệ thống & bảo mật</strong>.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="twoCol" style="margin-top:18px;">
+      <div class="card">
+        <h2>Trình độ học vấn</h2>
+        <div class="item">
+          <strong>Đại học Sư phạm Kỹ thuật Vĩnh Long</strong> <span class="muted">(2017 – 2022)</span><br/>
+          Ngành: <strong>Công nghệ thông tin</strong> — Chuyên ngành: <strong>Truyền thông & Mạng máy tính</strong>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Kỹ năng nổi bật</h2>
+        <div class="item">
+          <strong>Thế mạnh</strong>
+          <div class="row">
+            <span class="chip">Hỗ trợ kỹ thuật máy tính (cài đặt, cấu hình, xử lý lỗi)</span>
+            <span class="chip">Kiểm tra ATTT </span>
+            <span class="chip">Mạng máy tính cơ bản (LAN/WAN, Wifi, chia sẻ tài nguyên)</span>
+            <span class="chip">Windows/Linux căn bản</span>
+            <span class="chip">Cuu h</span>
+          </div>
+        </div>
+        <div class="item">
+          <strong>Kỹ năng mềm phù hợp môi trường quân đội</strong>
+          <div class="row">
+            <span class="chip">Kỷ luật – đúng quy trình</span>
+            <span class="chip">Chủ động hỗ trợ cơ sở</span>
+            <span class="chip">Làm việc nhóm</span>
+            <span class="chip">Quản lý thời gian</span>
+            <span class="chip">Chịu áp lực</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px;" class="card">
+      <h2>Kinh nghiệm làm việc</h2>
+
+      <div class="item">
+        <strong>Thực tập sinh ASP.NET</strong> <span class="muted">(01/2021 – 03/2021)</span>
+        <ul>
+          <li>Tham gia phát triển web bằng <strong>ASP.NET WebForm/MVC</strong>, thao tác dữ liệu với <strong>SQL Server</strong>.</li>
+          <li>Hỗ trợ sửa lỗi, nâng cấp giao diện (Bootstrap/jQuery) và tích hợp API theo phân công.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <strong>Lập trình viên Fullstack</strong> <span class="muted">(02/2022 – 01/2023)</span>
+        <ul>
+          <li>Phát triển ứng dụng web với <strong>ASP.NET MVC</strong>, <strong>SQL Server</strong>, xây dựng/tiêu thụ <strong>API</strong>.</li>
+          <li>Tham gia phát triển ứng dụng mobile (Java/Xamarin) theo yêu cầu dự án.</li>
+          <li>Phối hợp kiểm thử, xử lý lỗi, triển khai và hỗ trợ vận hành.</li>
+        </ul>
+      </div>
+
+      <div class="item">
+        <strong>Công tác trong Quân đội (Nghĩa vụ quân sự)</strong> <span class="muted">(02/2023 – 01/2025)</span><br/>
+        <span class="muted">Đơn vị: Bộ CHQS tỉnh Đồng Tháp</span>
+        <ul>
+          <li><strong>Hỗ trợ cài đặt, cấu hình máy tính</strong> cho các đơn vị cơ sở (huyện/xã): hệ điều hành, phần mềm nghiệp vụ, thiết lập mạng nội bộ cơ bản.</li>
+          <li><strong>Kiểm tra an toàn – an ninh thông tin</strong> theo kế hoạch: rà soát cấu hình, tình trạng cập nhật, phần mềm bảo vệ, phát hiện rủi ro cơ bản và đề xuất khắc phục.</li>
+          <li>Hỗ trợ xử lý sự cố thiết bị/endpoint và hướng dẫn người dùng tuân thủ quy định sử dụng CNTT.</li>
+          <li>Thực hiện báo cáo tình trạng và bàn giao theo <strong>quy trình</strong> và <strong>mệnh lệnh</strong> cấp trên.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section style="margin-top:18px;" class="twoCol">
+      <div class="card">
+        <h2>Kiến thức/Công nghệ liên quan</h2>
+        <div class="row">
+          <span class="chip">C# / ASP.NET / PHP / SQL</span>
+          <span class="chip">JavaScript / jQuery / Bootstrap</span>
+          <span class="chip">Docker</span>
+          <span class="chip">Linux (cơ bản)</span>
+          <span class="chip">Quản trị server</span>
+          <span class="chip">An toàn thông tin cơ bản</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Chứng chỉ</h2>
+        <ul>
+          <li>Chứng chỉ tiếng Anh A2</li>
+          <li>Chứng chỉ Ứng dụng CNTT loại Giỏi</li>
+          <li>Microsoft Office Specialist (Excel 2016)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" style="margin-top:18px;">
+      <h2>Tóm tắt năng lực</h2>
+      <ul>
+        <li>Đã có kinh nghiệm <strong>hỗ trợ kỹ thuật CNTT</strong> và <strong>kiểm tra an toàn an ninh thông tin</strong> cho đơn vị cơ sở (huyện/xã).</li>
+        <li>Nền tảng học thuật về <strong>mạng máy tính</strong>; có kinh nghiệm thực tế với hệ thống phần mềm và vận hành endpoint.</li>
+        <li>Tác phong <strong>kỷ luật</strong>, làm việc theo quy trình, sẵn sàng nhận nhiệm vụ và phối hợp nhiều đơn vị.</li>
+      </ul>
+    </section>
+
+  </main>
+</body>
+            </html>
